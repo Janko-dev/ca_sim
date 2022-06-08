@@ -1,0 +1,6 @@
+make --dry-run --keep-going --print-directory
+make: Entering directory '/home/jan/dev/Sim'
+gcc main.c sim.c -o out -Wall -Wextra -g `pkg-config sdl2 --cflags --libs`
+./out
+make: Leaving directory '/home/jan/dev/Sim'
+ 
